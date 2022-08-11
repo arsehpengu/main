@@ -111,7 +111,7 @@ local PredictionValue = 0.1357363
                 game.StarterGui:SetCore("SendNotification", {
                     Title = "";
                     Text = "Unlocked",
-                    Duration = 1
+                    Duration = 0.15
                 })
             end
             else
@@ -122,7 +122,7 @@ local PredictionValue = 0.1357363
                     game.StarterGui:SetCore("SendNotification", {
                         Title = "";
                         Text = "Target: "..tostring(Plr.Character.Humanoid.DisplayName),
-                        Duration = 1
+                        Duration = 0.15
                     })
 
                 end
