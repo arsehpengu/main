@@ -23,7 +23,7 @@ local ExampleToggle2 = Groupbox1:CreateToggle("Korblox", function(state)
 end)
 
 local ExampleButton = Groupbox1:CreateButton("Target/Box lock", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/arsehpengu/main/main/targetstrea.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/arsehpengu/main/main/targetstream.lua"))()
 end)
 
 --ExampleToggle2:CreateKeyBind()
