@@ -1,15 +1,16 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
 local NotifyLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
-NotifyLib.prompt('Q to target', 'Loaded..', 5)
+NotifyLib.prompt('Q to enable', 'Loaded..', 5)
 
+-- Settings
 
         Settings = {
         rewrittenmain = {
         Enabled = true,
         Key = "q",
-        DOT = false,
+        DOT = true,
         AIRSHOT = true,
-        NOTIF = true,
+        NOTIF = false,
         AUTOPRED = true,
         FOV = math.huge,
         RESOVLER = true
